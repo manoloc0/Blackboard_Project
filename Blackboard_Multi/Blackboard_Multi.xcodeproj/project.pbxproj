@@ -19,6 +19,8 @@
 		9F87D0672B673C89007320FB /* StickyTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87D0632B673C89007320FB /* StickyTemplate.swift */; };
 		9F87D06C2B673C90007320FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87D0692B673C90007320FB /* ContentView.swift */; };
 		9F87D06D2B673C90007320FB /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87D06A2B673C90007320FB /* Board.swift */; };
+		9F87D06F2B674375007320FB /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87D06E2B674375007320FB /* AppColors.swift */; };
+		9F87D0712B674694007320FB /* StickyNoteShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87D0702B674694007320FB /* StickyNoteShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		9F87D0632B673C89007320FB /* StickyTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StickyTemplate.swift; path = ../../../../Desktop/StickyTemplate.swift; sourceTree = "<group>"; };
 		9F87D0692B673C90007320FB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../Desktop/ContentView.swift; sourceTree = "<group>"; };
 		9F87D06A2B673C90007320FB /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Board.swift; path = ../../../../Desktop/Board.swift; sourceTree = "<group>"; };
+		9F87D06E2B674375007320FB /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		9F87D0702B674694007320FB /* StickyNoteShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNoteShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +111,12 @@
 			children = (
 				9F87D0352B673C70007320FB /* Blackboard_MultiApp.swift */,
 				9F87D0612B673C89007320FB /* StaticSticky.swift */,
+				9F87D0702B674694007320FB /* StickyNoteShape.swift */,
 				9F87D0622B673C89007320FB /* StickySet.swift */,
 				9F87D0632B673C89007320FB /* StickyTemplate.swift */,
 				9F87D0602B673C89007320FB /* Swatches.swift */,
 				9F87D06A2B673C90007320FB /* Board.swift */,
+				9F87D06E2B674375007320FB /* AppColors.swift */,
 				9F87D0692B673C90007320FB /* ContentView.swift */,
 				9F87D0392B673C71007320FB /* Assets.xcassets */,
 				9F87D03B2B673C71007320FB /* Blackboard_Multi.entitlements */,
@@ -275,10 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F87D0672B673C89007320FB /* StickyTemplate.swift in Sources */,
+				9F87D06F2B674375007320FB /* AppColors.swift in Sources */,
 				9F87D06C2B673C90007320FB /* ContentView.swift in Sources */,
 				9F87D0652B673C89007320FB /* StaticSticky.swift in Sources */,
 				9F87D0662B673C89007320FB /* StickySet.swift in Sources */,
 				9F87D0642B673C89007320FB /* Swatches.swift in Sources */,
+				9F87D0712B674694007320FB /* StickyNoteShape.swift in Sources */,
 				9F87D0362B673C70007320FB /* Blackboard_MultiApp.swift in Sources */,
 				9F87D06D2B673C90007320FB /* Board.swift in Sources */,
 			);
